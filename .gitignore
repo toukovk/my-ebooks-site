@@ -1,3 +1,6 @@
+# Not to be added to version control
+/data
+
 # Logs
 logs
 *.log
