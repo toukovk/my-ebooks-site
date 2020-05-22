@@ -5,14 +5,11 @@ import Layout from "../components/layout"
 import SEO from "../components/seo"
 
 const Ebook = ebook => (
-  <div style={{width: '100%', display: `inline-block`, margin: `0 1rem 1rem 0` }}>
-    <div style={{display: 'block', width: '100%'}}>
-      <a href={ebook.link} style={{fontSize: '1.2rem'}}>
-      {ebook.title}
-      </a>
-      <span className='date'> ({ebook.author}, {ebook.year})</span>
+  <div className='book'>
+    <div className='title-link'>
+      <a href={ebook.link}>{ebook.title}</a>
     </div>
-    <span className='media'>{ebook.publisher}</span>
+    {ebook.author} - {ebook.publisher} ({ebook.year})
   </div>
 )
 const IndexPage = ({ data }) => (

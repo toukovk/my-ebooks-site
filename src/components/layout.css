@@ -620,3 +620,15 @@ pre tt:after {
     font-size: 100%;
   }
 }
+
+/* Own styles */
+.book {
+  width: 100%;
+  display: inline-block;
+  margin: 0 0 0.3rem 0;
+}
+
+.title-link {
+  display: block;
+  width: 100%;
+}
