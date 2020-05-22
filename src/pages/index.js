@@ -18,8 +18,7 @@ const Ebook = ebook => (
 )
 const IndexPage = ({ data }) => (
   <Layout>
-    <SEO title="Ebooks" />
-    <h1>Ebooks</h1>
+    <SEO title="My Ebooks" />
     {data.allEbooksCsv.edges.map(( {node} ) => (
       <Ebook {...node} />
     ))}
