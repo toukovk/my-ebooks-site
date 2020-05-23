@@ -632,3 +632,6 @@ pre tt:after {
   display: block;
   width: 100%;
 }
+.search {
+  margin-bottom: 0.5rem;
+}
