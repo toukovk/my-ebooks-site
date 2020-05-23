@@ -635,3 +635,7 @@ pre tt:after {
 .search {
   margin-bottom: 0.5rem;
 }
+.sort {
+  display: inline-block;
+  margin-left: 0.5rem;
+}
