@@ -639,3 +639,6 @@ pre tt:after {
   display: inline-block;
   margin-left: 0.5rem;
 }
+.book-count {
+  margin-left: 0.5rem;
+}

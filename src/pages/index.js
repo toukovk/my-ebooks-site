@@ -99,6 +99,7 @@ const IndexPage = ({ data }) => {
           <option value="year-asc">Year (asc.)</option>
           <option value="year-desc">Year (desc.)</option>
         </select>
+        <span className="book-count">({sortedBooks.length})</span>
       </div>
       <SEO title="My Ebooks" />
       {sortedBooks.map((node) => (
