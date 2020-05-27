@@ -12,11 +12,14 @@ Some book metadata scraper scripts under [isbnmeta/](isbnmeta/)
 ## To run
 
 ```shell
+# Install Gatsby CLI
+$ npm install -g gatsby-cli
+
+# Fetch dependencies
+$ npm install
+
 # Use example data
 $ cp sample-ebooks.csv data/ebooks.csv
-
-# Get dependencies
-$ npm install
 
 # Start Gatsby dev server
 $ gatsby develop
