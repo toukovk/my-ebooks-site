@@ -7,6 +7,8 @@ Small project made to
 
 Based on [gatsby-starter-default](https://github.com/gatsbyjs/gatsby-starter-default).
 
+Some book metadata scraper scripts under [isbnmeta/](isbnmeta/)
+
 ## To run
 
 ```shell
