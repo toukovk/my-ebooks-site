@@ -26,14 +26,3 @@ $ gatsby develop
 ```
 
 After that the site should be running at [http://localhost:8000]([http://localhost:8000]).
-
-## To deploy to now.sh ([https://vercel.com/](https://vercel.com/))
-
-```shell
-# Install & login to now.sh (replace your-account@gmail.com with your now.sh/vercel account)
-$ npm install -g now
-$ now login your-account@gmail.com
-
-# Publish
-$ now --target production
-```
