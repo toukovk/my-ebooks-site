@@ -2,7 +2,6 @@ import React, { useState } from "react"
 import { graphql} from "gatsby"
 
 import Layout from "../components/layout"
-import SEO from "../components/seo"
 
 function filterBooks(books, search) {
   if (!search) {
@@ -101,7 +100,6 @@ const IndexPage = ({ data }) => {
         </select>
         <span className="book-count">({sortedBooks.length})</span>
       </div>
-      <SEO title="My Ebooks" />
       {sortedBooks.map((node) => (
         <Ebook {...node} key={node.id} />
       ))}
@@ -128,3 +126,5 @@ export const query = graphql`
 `
 
 export default IndexPage
+
+export const Head = () => <title>📚 My Ebooks 📚</title>
