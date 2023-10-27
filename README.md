@@ -12,9 +12,6 @@ Some book metadata scraper scripts under [isbnmeta/](isbnmeta/)
 ## To run
 
 ```shell
-# Install Gatsby CLI
-$ npm install -g gatsby-cli
-
 # Fetch dependencies
 $ npm install
 
@@ -22,7 +19,7 @@ $ npm install
 $ cp sample-ebooks.csv data/ebooks.csv
 
 # Start Gatsby dev server
-$ gatsby develop
+$ npm run develop
 ```
 
 After that the site should be running at [http://localhost:8000]([http://localhost:8000]).
