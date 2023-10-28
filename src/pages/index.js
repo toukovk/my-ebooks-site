@@ -107,7 +107,7 @@ const IndexPage = ({ data }) => {
   )
 }
 
-export const query = graphqll`
+export const query = graphql`
   query {
     allEbooksCsv {
       edges {
